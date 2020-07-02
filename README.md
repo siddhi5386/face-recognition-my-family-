@@ -9,6 +9,7 @@ For this initally the faces are detected in an image using face recognition (or 
 
 2. Then after succesfull formation of the encodings, output can be checked! For this first the input image is passed for face detection then the encodings are formed for the face so detected, these encodings are then compared to the encodings made for your dataset(in step 2) and the person with least difference in the encodings(E for the input image and EE from the encodings of the dataset) is recognized.
 
+Note:- I have not uploaded my encodings but it can be formed using the code given in the notebook! the notebook contains both the code for forming encodings as well for testing model
 
 Note:- This recognition can be done for both on images and realtime.But the speed in recognising on realtime depends on GPU.
 
